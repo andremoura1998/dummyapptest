@@ -148,7 +148,8 @@ dependencies {
     } else {
         implementation jscFlavor
     }
-
+    
+    implementation project(':react-native-datawedge-intents')
     implementation project(':react-native-splash-screen')
     implementation project(':react-native-code-push')
     implementation project(":mendixnative-release")
